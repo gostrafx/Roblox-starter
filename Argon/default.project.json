@@ -1,0 +1,49 @@
+{
+  "name": "Roblox-starter",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": {
+      "$path": "src/ReplicatedFirst",
+      "$keepUnknowns": true
+    },
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage",
+      "Packages": {
+        "$path": "Packages",
+        "$keepUnknowns": true
+      },
+      "$keepUnknowns": true
+    },
+    "StarterPack": {
+      "$path": "src/StarterPack",
+      "$keepUnknowns": true
+    },
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService",
+      "$keepUnknowns": true
+    },
+    "ServerStorage": {
+      "$path": "src/ServerStorage",
+      "$keepUnknowns": true
+    },
+    "StarterGui": {
+      "$path": "src/StarterGui",
+      "$keepUnknowns": true
+    },
+    "StarterPlayer": {
+      "StarterCharacterScripts": {
+        "$path": "src/StarterPlayer/StarterCharacterScripts",
+        "$keepUnknowns": true
+      },
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayer/StarterPlayerScripts",
+        "$keepUnknowns": true
+      }
+    },
+    "Workspace": {
+      "$path": "src/Workspace",
+      "$keepUnknowns": true
+    },
+    "$keepUnknowns": true
+  }
+}

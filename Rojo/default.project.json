@@ -1,0 +1,61 @@
+{
+	"name": "Roblox-starter",
+	"tree": {
+		"$className": "DataModel",
+		"$ignoreUnknownInstances": true,
+
+		"Workspace": {
+			"$className": "Workspace",
+			"$path": "src/Workspace",
+			"$ignoreUnknownInstances": true
+		},
+		"StarterGui": {
+			"$className": "StarterGui",
+			"$path": "src/StarterGui",
+			"$ignoreUnknownInstances": true
+		},
+		"ReplicatedFirst": {
+			"$className": "ReplicatedFirst",
+			"$path": "src/ReplicatedFirst",
+			"$ignoreUnknownInstances": true
+		},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$path": "src/ReplicatedStorage",
+			"$ignoreUnknownInstances": true,
+
+			"ReferenceExplorer": {
+				"$path": "src/ReplicatedStorage/ReferenceExplorer",
+				"$className": "Folder",
+				"$ignoreUnknownInstances": true
+			},
+			
+			"Packages": {
+				"$path": "Packages"
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$path": "src/ServerScriptService",
+			"$ignoreUnknownInstances": true
+		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"$path": "src/ServerStorage",
+			"$ignoreUnknownInstances": true
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterCharacterScripts": {
+				"$className": "StarterCharacterScripts",
+				"$path": "src/StarterPlayer/StarterCharacterScripts",
+				"$ignoreUnknownInstances": true
+			},
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$path": "src/StarterPlayer/StarterPlayerScripts",
+				"$ignoreUnknownInstances": true
+			}
+		}
+	}
+}
